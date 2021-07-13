@@ -1,0 +1,361 @@
+body {
+  margin: 0%;
+}
+
+/*                                                  NAVBAR                                                 */
+
+.navbar {
+  background-color: #ffffff;
+}
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  padding: 3mm;
+  font-size: 9mm;
+  color: #0a1931;
+}
+.navbar-brand:hover {
+  color: #888888;
+}
+a.nav-link {
+  padding: 2mm;
+  font-weight: bold;
+  color: #888888;
+}
+.nav-link:hover {
+  color: #05dfd7;
+}
+.searchBox {
+  margin-bottom: 1mm;
+}
+.searchButton {
+  height: 8mm;
+  width: 7mm;
+  background-color: transparent;
+  margin: 0 8mm 2mm 0mm;
+}
+.searchButton:active,
+.navbar-toggler:active {
+  transform: translateY(4px);
+}
+.button1 {
+  font-weight: bold;
+  margin-top: 1mm;
+}
+.button2 {
+  background-color: #05dfd7;
+  margin-left: 5mm;
+  font-weight: bold;
+  margin-top: 1mm;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-toggler {
+  font-size: 8mm;
+}
+.dropdown-menu {
+  background: -webkit-linear-gradient(#d5ecc2, #f6dfeb, #ffaaa7, #98ddca);
+}
+
+.dropdown-coming {
+  text-align: center;
+  font-family: "Otomanopee One", sans-serif;
+  padding: 1.5cm;
+}
+
+.dropdown-coming i {
+  margin-bottom: 1mm;
+  background: -webkit-linear-gradient(#151515, #301b3f, #3c415c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2cm;
+}
+.dropdown-coming hr {
+  border-color: white;
+}
+
+/*                                                 MIDDLE_1                                                       */
+
+.middle {
+  background-color: #e7e7e9;
+}
+
+.middle .row {
+  padding: 5mm;
+}
+.textTop {
+  text-align: left;
+  padding: 2.7cm 1cm 1cm 1.5cm;
+}
+.textTop h1 {
+  font-size: 1.25cm;
+  font-weight: bold;
+}
+.textTop p {
+  font-size: 5mm;
+  padding-top: 3mm;
+}
+.button3 {
+  background-color: #05dfd7;
+  font-weight: bold;
+  margin-top: 2mm;
+}
+.imageTop {
+  padding: 3mm;
+  text-align: center;
+}
+
+/*                                                MIDDLE_2                                                        */
+
+.middle2 {
+  text-align: center;
+  padding-top: 1cm;
+}
+.button4 {
+  border-style: solid;
+  border-width: 0.2mm;
+  font-weight: bold;
+  border-color: #888888;
+  border-radius: 2mm;
+  color: #888888;
+}
+.button5 {
+  border-style: solid;
+  border-width: 0.2mm;
+  border-color: #888888;
+  border-radius: 2mm;
+  color: #000000;
+}
+.button4 :hover {
+  color: #888888;
+}
+.middle2 a {
+  margin: 0 1mm;
+}
+.middle2 .abutton {
+  display: contents;
+}
+.middle2 a button {
+  padding: 1mm 5mm;
+
+  background-color: transparent;
+}
+.middle2 a button:hover {
+  background-color: #ccc;
+}
+
+/*                                                MIDDLE_2a                                                        */
+
+.middle2a {
+  text-align: center;
+  padding-top: 1cm;
+}
+
+.middle2a a {
+  margin: 0 1mm;
+}
+.middle2a .abutton {
+  display: contents;
+}
+.middle2a a button {
+  padding: 1mm 5mm;
+  font-weight: bold;
+  background-color: transparent;
+}
+.middle2a a button:hover {
+  background-color: #ccc;
+}
+.middle2a hr {
+  border-style: solid;
+  border-width: 0.6mm 0 0 0;
+  border-color: #ccc;
+  width: 100%;
+}
+.carousel-control-next .fas {
+  color: #ccc;
+  font-size: 8mm;
+  font-weight: bolder;
+}
+.carousel-control-prev .fas {
+  color: #ccc;
+  font-size: 8mm;
+  font-weight: bolder;
+}
+
+/*                                                  MIDDLE_3                                                  */
+
+.middle3 {
+  background-color: white;
+}
+.middle3 .row {
+  padding: 5mm;
+}
+
+.middle3 .card {
+  margin: 3mm;
+  border-style: none;
+  background-color: transparent;
+}
+.middle3 .card-img {
+  border-radius: 2mm;
+  padding: 0%;
+}
+.middle3 .card-footer {
+  background-color: transparent;
+  padding-right: 0%;
+  padding-left: 0%;
+  padding-top: 1mm;
+}
+
+.card-footer li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 0.8mm;
+}
+.card-footer img {
+  border-radius: 100%;
+  width: 7mm;
+  height: 7mm;
+}
+.card-footer button {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ccc;
+  border-style: none;
+  box-shadow: none;
+  border-radius: 1mm;
+}
+.card-footer button:hover {
+  background-color: #05dfd7;
+}
+
+.card-footer .span2 {
+  color: #ccc;
+  font-size: 3.5mm;
+  float: right;
+}
+.card-footer .fas:hover {
+  color: #05dfd7;
+}
+
+.card:hover .carousel-caption {
+  display: block;
+}
+.carousel-caption {
+  display: none;
+}
+/*                                             Bottom                                                       */
+
+.bottom {
+  background-color: transparent;
+  padding: 5mm;
+  text-align: center;
+}
+.bottom .row {
+  display: inline;
+}
+.bottom .btn1 {
+  background-color: #05dfd7;
+  font-weight: bold;
+  margin-right: 3mm;
+  border-radius: 2mm;
+}
+
+.bottom .btn2 {
+  background-color: transparent;
+  font-weight: bold;
+  margin-left: 3mm;
+}
+
+.bottom .btn1:hover {
+  background-color: turquoise;
+}
+
+/*                                             Footer                                                       */
+.footer {
+  background-color: #e7e7e9;
+  margin-bottom: 0%;
+  margin-top: 5mm;
+}
+.footer li {
+  text-align: left;
+  list-style-type: none;
+  padding: 2mm 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer .dribbble {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 9mm;
+  color: #05dfd7;
+}
+.footer .fab {
+  font-size: 5mm;
+  font-weight: bolder;
+  padding: 0 2mm;
+}
+.footer .fas {
+  font-size: 7mm;
+  font-weight: bold;
+  color: #05dfd7;
+}
+
+.footer .row2a li {
+  text-align: center;
+}
+
+/*                                             Media                                                       */
+
+@media screen and (max-width: 764px) {
+  .textTop {
+    text-align: center;
+  }
+  .imageTop img {
+    width: 100%;
+  }
+  .middle2 {
+    display: none;
+  }
+  .footer .row1 div {
+    padding: 5mm;
+  }
+  .footer .row2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 764px) {
+  .middle2a {
+    display: none;
+  }
+
+  .footer {
+    padding: 8mm 2cm;
+  }
+  .footer .row1 {
+    margin-bottom: 1cm;
+  }
+  .footer .row2 {
+    padding-top: 5mm;
+  }
+  .footer .colb2 li {
+    display: inline-block;
+  }
+  .footer .colb2 {
+    float: right;
+    text-align: right;
+  }
+  .footer .row2a {
+    display: none;
+  }
+}
